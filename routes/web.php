@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('categori', function () {
+    return view('categori.index');
+});
 Route::get('/welcome', function () {
     return view('welcome.index');
 });
